@@ -1,0 +1,128 @@
+
+
+.city-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    
+}
+
+.city-container h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.city-container h1{
+    font-size: 2.5rem;
+    color: #fff;
+    letter-spacing: .3rem;
+}
+
+.city-container p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(62, 211, 238);
+    text-transform: capitalize;
+}
+
+
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: .5rem;
+}
+
+.details-container h1{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.details-container span{
+    font-weight: 300;
+}
+
+.o-span{
+    position: absolute;
+    top: 35.4%;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.second-container img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.more-details{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+
+}
+
+.more-details h1{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+}
+
+.more-details span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.more-details p{
+    position: absolute;
+    bottom: 22%;
+    color: #fff;
+}
+
+.p{
+    position: absolute;
+    left: 57.3%;
+}
+
+.temperature-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.temp-cont{
+    display: flex;
+    align-items: center;
+}
+
+.temp-cont span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.data-changes{
+    margin-top: 18rem;
+    display: flex;
+    justify-content: center;
+}
+
+.data-changes h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.card{
+    border-radius: 2rem;
+}
